@@ -1,0 +1,47 @@
+.custom-btn-LOGIN {
+  background-color: rgb(96, 156, 252);
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-family: "Arial Narrow";
+  font-size: 80%;
+}
+
+.custom-btn-SIGNUP {
+  background-color: rgb(246, 251, 251);
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  font-family: "Arial Narrow";
+  font-size: 80%;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 110vh;
+  background: url(hero.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+.home .content {
+  max-width: 50rem;
+}
+
+.home .content h3 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 0;
+  line-height: 0.5;
+}
+
+.home .content p {
+  font-size: 1.5rem;
+  color: rgb(254, 254, 254);
+}
