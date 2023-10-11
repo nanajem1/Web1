@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Javascript</title>
+  </head>
+  <body>
+    <h2>PENJUMLAHAN & PENGURANGAN BILANGAN</h2>
+    <label for=""> BILANGAN 1</label>
+    <input type="text" id="angka1" />
+    <label for="">BILANGAN 2</label>
+    <input type="text" id="angka2" />
+    <br />
+    <br />
+
+    <button onclick="tampilkanHasil()">Tambah (+)</button>
+    <button onclick="fkurang()">Kurang (-)</button>
+    <button onclick="ulang()">Ulang</button>
+
+    <script>
+      var angka1 = document.getElementById("angka1");
+      var angka2 = document.getElementById("angka2");
+      var hasil = document.getElementById("hasil");
+
+      function tampilkanHasil() {
+        var hasilPenjumlahan = Number(angka1.value) + Number(angka2.value);
+        alert("Hasil Penjumlahan: " + hasilPenjumlahan);
+      }
+
+      function fkurang() {
+        var hasilPengurangan = Number(angka1.value) - Number(angka2.value);
+        alert("Hasil Pengurangan: " + hasilPengurangan);
+      }
+
+      function ulang() {
+        angka1.value = "";
+        angka2.value = "";
+        hasil.value = "";
+      }
+    </script>
+  </body>
+</html>
