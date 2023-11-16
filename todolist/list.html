@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple To Do List</title>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Input untuk menambahkan tugas -->
+      <div id="newtask">
+        <h2>ADD ACTIVITY</h2>
+        <input type="text" placeholder="To Do List.." />
+        <button id="push">Add</button>
+      </div>
+
+      <!-- Daftar tugas -->
+      <div id="tasks">
+        <div class="task">
+          <!-- Teks tugas -->
+          <span class="text">Teks Tugas</span>
+          <!-- Tombol Edit -->
+          <button class="edit">
+            <i class="far fa-edit"></i>
+          </button>
+          <!-- Tombol Hapus -->
+          <button class="delete">
+            <i class="far fa-trash-alt"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="code.js"></script>
+  </body>
+</html>
